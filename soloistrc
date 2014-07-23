@@ -79,5 +79,6 @@ node_attributes:
         - google-hangouts
         - skype
         - textmate
+        - hipchat
         - vagrant
         - virtualbox
