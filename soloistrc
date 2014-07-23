@@ -28,14 +28,10 @@ recipes:
 
 # apps
 - sprout-osx-apps::iterm2
-- sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
+- sprout-osx-apps::svn
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
-- sprout-osx-apps::macvim
-- sprout-rubymine
+- sprout-osx-apps::sublime_text
 
 node_attributes:
   sprout:
@@ -69,24 +65,14 @@ node_attributes:
       magnification': false
     homebrew:
       formulae:
-        - ctags-exuberant
-        - ag
-        - chromedriver
-        - imagemagick
-        - node
-        - pstree
-        - qt
         - ssh-copy-id
-        - tmux
         - tree
+        - pstree
+        - tmux
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
-        - ccmenu
         - firefox
-        - gitx-rowanj
         - github
         - google-chrome
         - google-drive
@@ -95,5 +81,3 @@ node_attributes:
         - textmate
         - vagrant
         - virtualbox
-        - xquartz
-        - xscope
