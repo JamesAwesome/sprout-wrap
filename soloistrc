@@ -78,7 +78,7 @@ node_attributes:
         - google-drive
         - google-hangouts
         - skype
-        - textmate
         - hipchat
         - vagrant
         - virtualbox
+        - chefdk
