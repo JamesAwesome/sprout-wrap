@@ -19,12 +19,7 @@ recipes:
 - sprout-git::default_editor
 - sprout-git::projects
 - sprout-git::git_scripts
-
-# development (rails)
-- sprout-rbenv
 - sprout-ruby
-- sprout-mysql
-- sprout-postgresql
 
 # apps
 - sprout-osx-apps::iterm2
@@ -36,33 +31,7 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
-      authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
-    terminal:
-      default_profile: 'Pro'
-    settings:
-      clock_format: EEE MMM d  h:mm:ss a
-    dock_preferences:
-      orientation: 'left'
-      auto_hide: true
-      clear_apps: true
-      tile_size: 35
-      magnification': false
+      domain: crowdsurge.com
     homebrew:
       formulae:
         - ssh-copy-id
